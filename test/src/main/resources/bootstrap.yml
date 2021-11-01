@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: test-server
+  profiles:
+    active: test-dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 162.14.77.8:8848
+      config:
+        server-addr: 162.14.77.8:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
